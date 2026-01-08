@@ -1,139 +1,65 @@
- Stock Price Prediction Web App using Machine Learning
+📈 Stock Price Prediction Web App using Machine Learning
 
 A Streamlit-based web application that predicts stock prices using Machine Learning models, supporting both Indian and US stock markets.
 The app allows users to visualize historical stock data, analyze trends, and generate future price predictions using past market behavior.
 
- Project Overview
+🚀 Project Overview
 
 This project demonstrates an end-to-end Machine Learning workflow applied to the stock market domain:
 
- Data collection from real financial sources
+Data collection from real financial sources
 
- Data preprocessing and feature engineering
+Data preprocessing and feature engineering
 
- ML model training and prediction
+ML model training and prediction
 
- Interactive visualization using Streamlit
+Interactive visualization using Streamlit
 
 It is built primarily for learning, analysis, and portfolio demonstration purposes.
 
+🧠 Key Features
 
- Key Features
+📊 Supports both Indian & US stocks
 
-  Supports both Indian & US stocks
+📅 User-defined date range selection
 
-  User-defined date range selection
+🔄 Automatic historical data fetching
 
-  Automatic historical data fetching
+🤖 Machine Learning–based price prediction
 
-  Machine Learning–based price prediction
+📈 Interactive charts:
 
-  Interactive charts:
+Historical prices
 
-   Historical prices
+Predicted vs Actual prices
 
-   Predicted vs Actual prices
+📰 Real-time stock-related news integration
 
-  Real-time stock-related news integration
+🌐 Clean and user-friendly Streamlit UI
 
-  Clean and user-friendly Streamlit UI
-  
+🛠️ Tech Stack
+🔹 Programming & Frameworks
 
- Tech Stack
- Programming & Frameworks
-  Python
-  Streamlit
+Python
 
-Data & ML Libraries
- pandas
- numpy
- scikit-learn
- 
-Data Sources
- nsepy → Indian stock market data
- yfinance → US stock market data
- 
+Streamlit
 
-How It Works (Workflow)
+🔹 Data & ML Libraries
 
-User Input
+pandas
 
-Select stock symbol (Indian or US)
+numpy
 
-Choose date range
+scikit-learn
 
-Data Collection
+🔹 Data Sources
 
-Indian stocks → nsepy
+nsepy → Indian stock market data
 
-US stocks → yfinance
+yfinance → US stock market data
 
-Data Preprocessing
+🔹 Visualization
 
-Handling missing values
+matplotlib
 
-Feature selection
-
-Date-based indexing
-
-Model Training
-
-Regression-based ML model
-
-Trained on historical price data
-
-Prediction
-
-Future stock price prediction
-
-Comparison with actual prices
-
-Visualization
-
-Line charts for historical trends
-
-Prediction vs Actual price plots
-
-Display of recent financial news
-
- Machine Learning Model
-
-Problem Type: Regression
-
-Input Features:
-
-Open price
-
-High price
-
-Low price
-
-Close price
-
-Volume
-
-Output:
-
-Predicted future stock price
-
-⚠️ Note:
-Stock price prediction is inherently uncertain.
-This model is built for educational and analytical purposes only, not financial advice.
-
- How to Run the Project Locally
-1️ Clone the Repository
-2️ Install Dependencies (requirements.txt)
-3️ Run the Streamlit App
-
- Author
-
-Sagar Kanojia
-
-Data Analytics & Machine Learning Enthusiast
-
-Final Year Computer Science Student
-
- If you like this project, feel free to star ⭐ the repository!
-
-
-
+plotly
