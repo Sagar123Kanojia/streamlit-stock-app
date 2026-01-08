@@ -7,35 +7,37 @@ The app allows users to visualize historical stock data, analyze trends, and gen
 
 This project demonstrates an end-to-end Machine Learning workflow applied to the stock market domain:
 
-Data collection from real financial sources
+ Data collection from real financial sources
 
-Data preprocessing and feature engineering
+ Data preprocessing and feature engineering
 
-ML model training and prediction
+ ML model training and prediction
 
-Interactive visualization using Streamlit
+ Interactive visualization using Streamlit
 
 It is built primarily for learning, analysis, and portfolio demonstration purposes.
 
+
  Key Features
 
- Supports both Indian & US stocks
+  Supports both Indian & US stocks
 
- User-defined date range selection
+  User-defined date range selection
 
- Automatic historical data fetching
+  Automatic historical data fetching
 
- Machine Learning–based price prediction
+  Machine Learning–based price prediction
 
- Interactive charts:
+  Interactive charts:
 
-Historical prices
+   Historical prices
 
-Predicted vs Actual prices
+   Predicted vs Actual prices
 
- Real-time stock-related news integration
+  Real-time stock-related news integration
 
- Clean and user-friendly Streamlit UI
+  Clean and user-friendly Streamlit UI
+  
 
  Tech Stack
  Programming & Frameworks
@@ -50,6 +52,7 @@ Data & ML Libraries
 Data Sources
  nsepy → Indian stock market data
  yfinance → US stock market data
+ 
 
 How It Works (Workflow)
 
@@ -131,5 +134,6 @@ Data Analytics & Machine Learning Enthusiast
 Final Year Computer Science Student
 
  If you like this project, feel free to star ⭐ the repository!
+
 
 
