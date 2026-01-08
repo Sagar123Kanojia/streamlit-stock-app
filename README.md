@@ -1,4 +1,4 @@
-📈 Stock Price Prediction Web App using Machine Learning
+ Stock Price Prediction Web App using Machine Learning
 
 A Streamlit-based web application that predicts stock prices using Machine Learning models, supporting both Indian and US stock markets.
 The app allows users to visualize historical stock data, analyze trends, and generate future price predictions using past market behavior.
@@ -38,33 +38,20 @@ Predicted vs Actual prices
  Clean and user-friendly Streamlit UI
 
  Tech Stack
-🔹 Programming & Frameworks
+ Programming & Frameworks
+  Python
+  Streamlit
 
-Python
+Data & ML Libraries
+ pandas
+ numpy
+ scikit-learn
+ 
+Data Sources
+ nsepy → Indian stock market data
+ yfinance → US stock market data
 
-Streamlit
-
-🔹 Data & ML Libraries
-
-pandas
-
-numpy
-
-scikit-learn
-
-🔹 Data Sources
-
-nsepy → Indian stock market data
-
-yfinance → US stock market data
-
-🔹 Visualization
-
-matplotlib
-
-plotly
-
- How It Works (Workflow)
+How It Works (Workflow)
 
 User Input
 
@@ -144,4 +131,5 @@ Data Analytics & Machine Learning Enthusiast
 Final Year Computer Science Student
 
  If you like this project, feel free to star ⭐ the repository!
+
 
